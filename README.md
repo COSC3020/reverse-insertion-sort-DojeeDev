@@ -36,3 +36,21 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+**Reasoning:**
+We know that there is going to be at least n steps because we need to loop through the size of the array regardless, even if it's already sorted ( first loop)
+  
+For the inner loop if the array is randomly ordered we need to swap elements n-x times where x is the distance to the correct position. Since x is a constant factor, asymptotically at least, the average time complexity will be $n(n-x) \in \Theta(n^2)$
+
+
+
+
+
+
+
+
+
+
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
